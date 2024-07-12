@@ -1,0 +1,217 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+
+    <string name="home_user">Test User</string>
+    <string name="home_last_logged_in_date">June 21, 2015</string>
+    <string name="action_deregister">Deregister</string>
+    <string name="action_logout">Log Out</string>
+    <string name="home_title_bar">Welcome</string>
+    <string name="Login">Log in</string>
+    <string name="action_login">Log in</string>
+    <string name="intro_title">IdentityX FIDO Sample</string>
+    <string name="qr_title">Register</string>
+    <string name="action_login_with_qrcode">Scan sponsorship QR Code</string>
+    <string name="action_login_without_qrcode">Username &amp; Password</string>
+    <string name="home_user_label">User:</string>
+    <string name="home_logged_in_with_label">Logged in with:</string>
+    <string name="home_logged_in_with_data">Example</string>
+    <string name="home_last_logged_in_label">Last logged in:</string>
+    <string name="action_delete_account">Delete Account</string>
+    <string name="never_used">Never Used</string>
+    <string name="created_label">Created:</string>
+    <string name="last_used_label">Last Used:</string>
+    <string name="action_step_up_auth">Step-up Auth</string>
+    <string name="action_image_transaction">Image Transaction</string>
+    <string name="action_text_transaction">Text Transaction</string>
+    <string name="transaction_image_content">iVBORw0KGgoAAAANSUhEUgAAAYUAAAA6CAYAAABfyEVcAAAJi0lEQVR42u2d34tVVRTH5z8yq4cIQu132IP0Q5wQSTIioiyGgqjMQikj1BEbnXJSQSkEc6w0LUyoyYGSxGmgxrGbEKRo-jBK4cw4J86FM-273T_WXnvtM-fc-334vDjXe87ZZ-312b9v1-N9j2YAAABAThcKAQAAAKQAAAAAUgAAAAApAAAAgBQAAKA85i3caAVSAAAASGGWnk27IQUAAOhEKczMzLRQp94CpAAAAMJSuHbtWosUHure0fz3Zz94DVIAAIBOk8L5Cxdq21uAFAAAIIEUdDHMWwQpAABAR0thcnJqVgo3btyoRW8BUmDy2fD-rHGu0WR49ATKBACQLd26rJn03-892pTC1atXW3oL8--GFNqS5f1PZCd_PTkrhaGRoezpnU-hbAAAzaS_umdfUwp_X77cIoXp6er3FiAFASns_W4vygUAcJMU6jjhDClACqWVF4bZAKQwk12_Ptn8zC2LNtZfCsdPfTubCF10QuW3lcV4Yzx7cc8LQVJR4QrG9p1n_zib9R7eLCbAGChlM1f0f7Nd7F3MZSMl9n2jsZVeClXvLQRJYf2BddmZxhlyEmhXOaiTzCaO_HSE_X85FZsi69Njp1nzHk8OrMjGfh8TkYKrXKokg9gyKxu9XtY1mervoorxIiWFxrlLzc8tWNJXbymoCcLU6jO1KttNDL4E7ErorgTEEYNe3nol0v_OTXK5yGz_V42JuiRR6rvUY1wtz6r1etRnqfNwptpoamcpVLm3ICoFW_JrlzF3teLZZPfOwfWkBG4qP73F50uyxf34EpT6PqQlXVcpqO_SlHzyv-txq76fqg3TqMkUUkjLK-_uy26_r9fIbfduJkvh-A_jzc8-tmp3faUQ0lKiJNA6oSYEbqUrysRVHtRx1dD7Ka4tnczU-62LFApJcsoiVTlCCjc3YKr4HK5TUFVeXTPYFMLU1JRVClXtLSSTgvpyqzzBKJnQKWI59dspb-JUE76ttRR6P5TvjJVCXeQf8y6L5Fu1mK56Mq37c6gJ_-HlA85EH8KJkw2vGKgikvr9hi5uhfK1CtUkVHcplJ341CEZUwJX_06tOKla9HWTgq9s6y6FOq8-qoMUpGSg8tGe4dnvX_36gc6Wgm3i1VXhiutTKrTUEreyJxh9iYubAFIkNEkpuFa3SfVu1LKl3i9lgYCtPnBiXC0H9R5ddcoUE6aVbq6YsV1XYrjKtrRZ_79UKeTXp8SxXv7c2E8phZx__p1sSegPLP2w5dovvXUoe2PjMRKVlYL6MvTPUpc56okgdEjKtzqHO2abeuzcN19Q3EvofaRoTUpIIWSpc6wcOA0FyjJiqRi3zV2Y5KKWt_pu83vhSEydB3TFVki98u1z0a9DkYIrt_jKn1t3U0uhYOXqT4yt_raQguvAuOJvpuTkWuGhLyH0JQg1MGIToR5kKXsMvhY99R3UQQp6wjUlAj0hxvZIYtbDU-cjuDFu-v95mZikqd43ZfOdb4lyyBCjej1b-VHEqJejL0YpezI4vcGqSKFgcmo661n7eXbn4q3tIQVfMs5f7FhjjNR9LgIuD9h1g2-TWzOh3WFui1Z6HN03IRyThKsmhdClsr5lpDF7FKiCpUqBE-MuWarvzLRggZKkfcs-JaVAaURt_3rbTXHoilHqkmCJRSFzLYWCn0f_bF63-_lPs5Uv7ydROSnorRHui7FdJ6T7n2KZnqlFJtVroFRKqSQsVR7c--Hsb5Ce29HF4PtO6Ul1V11S3xVF4iHCd5UjZ87Qts-DE2u256AOHccuJIAUhKUg2c2nXsd2jZSbqkw9Bskk5arYVespcLvqXEFJi00XA7XsJRIONcYpzxn6bm2fD-kJ2aQQs_zZN2Huuy_JIWNIQfhQPM7qoJBVHb4EWsbSNu4QRMzkZ8zS0qJMJOdDuFKg7sYuoyVIXaHCkQI3xqWSfMhihpAGhyvxx6xy05-D0-NQJSIlBkghIsBjlqdxl_q5zvwpc6UQR0Cc1TDciWbuqqWUUgi9l1T7IijDniFCio3xOklBj1nuu5Ucng1dlFJVKXx59Jf6SEGqVWwLvpC5Cz1oJI6k4IohJFFxz9LhtMRSJVOOFGLiSHoIJ-QIaqoUJGLctXopdLVTnaSgPoe6tJbzriXFACkklAJ18pcSWLYhIu7QRJnn_6jlEHqfnKExzi7oKvYUUj0HpWypUpCI8dRSMPUsJKQQmyP054j9LXSpwzkhhYRSoCQD6nVMn0u1-kCqFS5xnDUnEac6nkFNDiHPEprEyjrOoXiemJ6CRIynloLpHqV7Cpx3ZHoOymY1yaXPkEKCo7MlpMLZJJcH51ycTUNtuevzDxI7rCkVL6UouVLgiC3FpqSQuKOUo1SMp5SCLV65-xRcR1WE1kPbc8R8p0RjFlJIJAXq0E7IddTPjo6Pim5WU4Pq42MDUcdfhC6VKyqBTTLUMko96R5z8GHI0IDUHoW83A4OD3o3W8XslJWI8dA9NlQp-Oa_KN_j2xFummQ3PYNpg5_rublzcBLzUJAC8agHzvicL4m4dnJSj0qQHlqgHIgW8vsSUj9h6Vv5VMZJtbE_PKOWi-_IB4nnoJxjROkFUA-W48Z46O5tPb5MdZNyGoDr3m0rqkz3Rz3PynWUjU0krt62qQEnMcdYJFrXj-ZAChHW9VXM_OUd-vEQ-Tp6oEgPLfju19cCj_md49Bn5whLckluzHHUqX5nOkTOvoaOqYFAOaYiNMZDf6QqpNHhe0e-RlB-75sPb_IOG1Li3iUFysZU1_yDZB1QpSAphunp6WxiYiK7cuWKkV27vq_X5rWhkSF2JTUFjO3lUq6T-jdqbZWOGmycnkJIIJsqQxln6-vDOlu-6hWXb6p9FdxVKdTNUTExHhr_0seP-8pJ_fvImZHsvS82BN-Tbye377lNu69N9y2RD3QpSIjh4sVLLd9nor_vWPWlUPUfwSljgrmdfkAIAMCTQowYfDIoWPvmAUghdsy_jGWokAIAkEIZQAoJdqGmlhCkAEDnSGG-sBhWPbeX9NOakAJzHDr1OUfcSUAAQPuIQarHMG_B_9-3cMm2Jnc8uKUFSGGOtrADAACFW-_ZFC2Gv86fbxEMRUb3d-_IFq_YSaJjpSBxXAQAAIRy1yO9pCEfH8ue2RXcQwmhY4eP8qGcsuYSAAAgp2fNYJwQ-ror-2xdeMEAAAAgBQAAAJACAAAASAEAAACkAAAAAFIAAAAAKQAAAIAUAAAAQAoAAAAgBQAAAJACAAAASAEAAECJ_AdyEwJjWVBjgAAAAABJRU5ErkJggg</string>
+    <string name="transaction_text_content">Pay $50 to acme.com</string>
+    <string name="transaction_validation_success">Transaction validated successfully</string>
+    <string name="step_up_auth">Step-up Auth</string>
+    <string name="action_login_with_password">Log in with Password</string>
+    <string name="action_login_with_fido">Log in with FIDO</string>
+    <string name="action_generate_ootp">Generate OOTP</string>
+    <string name="authenticators_title_bar">FIDO Authenticators</string>
+    <string name="register_new_authenticator">Register</string>
+    <string name="auth_status_label">Status:</string>
+    <string name="action_manage_authenticators">Authenticators</string>
+    <string name="action_new_account">New Account</string>
+    <string name="action_create">Create</string>
+    <string name="confirm_dereg_active_auth_present">There is an authenticator of this type on your device.\n Unfortunately it is not possible to determine if this is the authenticator in question.  By selecting \'Yes\', an attempt will be made to deregister this authenticator on this device.\n\nDo you wish to continue?</string>
+    <string name="confirm_dereg_active_auth_not_present">There is no authenticator of this type on your device.\nAs a result, the authentictor can be deactivate on the server but that authenticator will continue to be seen as an active authenticator.\n\nDo you wish to continue?</string>
+    <string name="confirm_dereg_inactive_auth_present">This authenticator has been deactivated.\nHowever there is an authenticator of this type on your device.  Unfortunately it is not possible to determine if this is the authenticator in question.  By selecting \'Yes\', an attempt will be made to deregister this authenticator on this device.\n\n Do you wish to continue?</string>
+    <string name="confirm_tabbed_ui">EXPERIMENTAL SETTING!\n\nThe Sample App Tabbed UIs demo will not work unless particular FIDO policies are set. See Readme.txt for details.\n\nSelect \'Yes\' if you still wish to enable tabbed UIs.</string>
+    <string name="confirm_no_daon_exts">EXPERIMENTAL SETTING!\n\nThis setting removes all extensions from authentication messages generated by the SDK.\nThis will break ADoS authenticators.\n\nSelect \'Yes\' if you still wish to enable this setting.</string>
+    <string name="dialog_confirm_yes">Yes</string>
+    <string name="dialog_confirm_cancel">Cancel</string>
+    <string name="deregistration_complete">Deregistration complete.</string>
+    <string name="registration_complete">A new authenticator has been registered.</string>
+    <string name="error_registering_authenticator">"Error registering the authenticator: "</string>
+    <string name="error_deregistering_authenticator">Error deregistering the authenticator - it may already have been deregistered or it may never have been registered</string>
+    <string name="message_account_just_created">Account just created</string>
+    <string name="message_first_login">Initial login</string>
+    <string name="dialog_delete_confirmation">Are you sure you want to delete your account?</string>
+    <string name="dialog_delete_confirmation_yes">Yes</string>
+    <string name="dialog_delete_confirmation_no">No</string>
+    <string name="dialog_logout_confirmation">Are you sure you want to log out of your account?</string>
+    <string name="dialog_logout_confirmation_yes">Yes</string>
+    <string name="dialog_logout_confirmation_no">No</string>
+    <string name="message_account_deleted">Account deleted</string>
+    <string name="message_authentication_fido_client_error">"Could not process the authentication request.  Error from FIDO Client: "</string>
+    <string name="text_transaction">Text</string>
+    <string name="text_for_transaction">Text for transaction</string>
+    <string name="image_transaction">Image</string>
+    <string name="dialog_enter_transaction_text">Please enter a text for the transaction.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="prompt_step_up_auth">Step up Authentication</string>
+    <string name="prompt_transaction_confirmation">Transaction Confirmation</string>
+    <string name="action_authenticate">Authenticate</string>
+    <string name="dialog_select_image_or_text">Please select the transaction type</string>
+    <string name="pref_server_secure">Secure Connection (https)</string>
+    <string name="error_initialising_uaf">Failed to initialize FIDO support. %s</string>
+    <string name="action_check_policy">Check Policy</string>
+    <string name="check_policy_success">Check policy succeeded</string>
+    <string name="account_dialog_title">Choose a User Account</string>
+    <string name="transaction_dialog_title">Confirm Transaction</string>
+    <string name="authenticator_dialog_title">Choose an Authenticator</string>
+    <string name="list_registered_authenticators_button">List Authenticators</string>
+    <string name="authenticator_reg_dialog_title">Registered authenticators</string>
+    <string name="pref_list_available_authenticators">List Unregistered Authenticators</string>
+    <string name="pref_fido_authlist">LIST AUTHENTICATORS</string>
+    <string name="pref_facet_id">Facet ID</string>
+    <string name="pref_app_version">Version</string>
+    <string name="unlock">Unlock</string>
+    <string name="authenticator_unlock_failure">Failed to unlock the authenticator</string>
+    <string name="authenticator_unlock_complete">Authenticator unlocked</string>
+    <string name="authenticator_reenrol_failure">Authenticator failed to accept re-enroll request</string>
+    <string name="authenticator_reenrol_complete">Re-enroll request accepted</string>
+    <string name="reenrol">Re-enroll</string>
+    <string name="select_authenticator">Please select an authenticator</string>
+    <string name="select_locked_authenticator">Please select a locked authenticator</string>
+    <string name="select_registered_authenticator">Please select a registered authenticator</string>
+    <string name="logout_due_to_inactivity">You have been logged out due to inactivity.</string>
+    <string name="logout_failed">Logout failed</string>
+    <string name="reg_policy_not_found">Registration policy not found</string>
+    <string name="pref_fido_logon">LOGON OPTIONS</string>
+    <string name="pref_native_logon_always">Always allow native authenticator</string>
+    <string name="pref_fido_tx">TRANSACTION OPTIONS</string>
+    <string name="pref_text_tx">Text transaction</string>
+    <string name="pref_sdk_managed_finger_locking">SDK-managed finger locking</string>
+    <string name="pref_cancel_finger_on_lose_focus">Cancel finger when focus is lost</string>
+    <string name="pref_init_params_to_server">Echo init parameters to server</string>
+    <string name="pref_no_daon_exts">Don\'t generate extensions</string>
+    <string name="pref_ignore_native_clients">Ignore native clients</string>
+    <string name="app_initializing">App starting, please wait...</string>
+    <string name="no_authenticators_registered">Your account has no authenticators registered on this device.</string>
+    <string name="permission_msg_location">Access Fine Location Permission Denied. Location Services may not work properly.</string>
+    <string name="permission_msg_read_phone_state">Read Phone State Permission Denied. This will affect Extended Device Info acquisition.</string>
+    <string name="permission_msg_wifi">Access WiFi State Permission Denied. This will affect Extended Device Info acquisition.</string>
+    <string name="permission_msg_post_notifications">Post Notification Permission Denied. This will affect Push Notifications.</string>
+    <string name="permission_msg_camera">Camera Access Permission Denied!</string>
+    <string name="permission_msg_voice">Record audio permission is not granted.</string>
+    <string name="authenticator_already_registered">Already registered</string>
+    <string name="pref_fido_ui">UI OPTIONS</string>
+    <string name="pref_tabbed_reg_ui">Tabbed registration UI</string>
+    <string name="pref_tabbed_auth_ui">Tabbed authentication UI</string>
+    <string name="pref_tabbed_auth_ui_multi">Multi-choice step-up UI</string>
+    <string name="title_activity_register_more_than_once_tab">RegisterMoreThanOnceTabActivity</string>
+    <string name="title_activity_barcode_capture">BarcodeCaptureActivity</string>
+    <string name="title_activity_qrcode">QRCodeActivity</string>
+    <string name="pref_fido_ados">ADoS</string>
+    <string name="pref_alt_ados_root_cert_provided">Use non-default ADoS trusted cert?</string>
+    <string name="pref_fido_app_info">APP INFO</string>
+    <string name="ados_root_cert_set">New ADoS root certificate set.\nYou must restart the app to complete the change.</string>
+    <string name="ados_root_cert_unset">The default ADoS root certificate will be used.\nYou must restart the app to complete the change.</string>
+    <string name="pref_ados_dec_san">ADoS Encryption Certificate SAN</string>
+    <string name="settings_app_restart_warning">You must restart the app for this setting to take effect.</string>
+    <string name="pref_screen_capture">Enable screen capture</string>
+    <string name="pref_fido_reset_category">RESET DATA</string>
+    <string name="pref_reset">Reset</string>
+    <string name="pref_hard_reset">Hard Reset</string>
+    <string name="click">Click to reset</string>
+    <string name="hard_click">Click to hard reset</string>
+    <string name="confirm_reset">Continuing will remove all user registrations.\n\nAre you sure you want to continue?</string>
+    <string name="confirm_hard_reset">Continuing will remove all SDK data.\n\nAre you sure you want to continue?</string>
+
+    <string name="notification_channel_name_default">Default Channel</string>
+    <string name="pref_silent_finger_reg">Silent fingerprint registration</string>
+    <string name="pref_silent_srp_passcode">Silent SRP passcode</string>
+    <string name="confirmation_otp_dialog_title">Your One-Time Password</string>
+    <string name="pref_fido_ootp">OOTP</string>
+    <string name="pref_sign_ootp">Scan transaction data</string>
+    <string name="offline_otp_dialog_title">One-Time Password</string>
+    <string name="prompt_otp">Generate OTP</string>
+    <string name="ootp_update_cancelled">OOTP update cancelled</string>
+    <string name="unknown_server_error">Unknown server error</string>
+    <string name="action_single_shot_authenticate">Single-Shot Auth</string>
+    <string name="single_shot_alert_message">Client generated authentication requests will not work with all authenticators and requires the latest SRP Server.\n\nNOTE. By default the sample app creates an Open Policy.</string>
+    <string name="pref_fido_security">SECURITY</string>
+    <string name="pref_invalidate_finger_on_new_enrolment">Invalidate finger on new enrollment</string>
+    <string name="reinit_sdk_wait_message">Updating SDK...</string>
+    <string name="pref_always_allow_authenticator_choice">Always allow authenticator choice</string>
+    <string name="user_lock_warning">One attempt remaining until user account is blocked</string>
+    <string name="field_cannot_be_empty">This field cannot be left empty</string>
+
+    <string name="confirmation_otp_dialog_positive_button">Accept</string>
+
+    <string name="finger_warn_attempt">Place finger carefully on sensor</string>
+    <string name="fido_fingerprint_description">Please touch sensor when ready.</string>
+    <string name="fido_fingerprint_title">Fingerprint</string>
+    <string name="fido_fingerprint_info">Touch sensor</string>
+
+    <string name="face_liveness_hmd_face_not_detected">No face detected</string>
+    <string name="face_liveness_hmd_face_not_centered">Center face</string>
+    <string name="face_liveness_hmd_motion_too_fast">Motion too fast</string>
+    <string name="face_liveness_hmd_motion_swing_too_fast">Nod/Shake movement too fast</string>
+    <string name="face_liveness_hmd_motion_too_far">Nod/Shake movement too far</string>
+    <string name="face_liveness_hmd_too_close_to_edge">Face is too close to the edge</string>
+    <string name="face_liveness_hmd_too_near">Face too close</string>
+    <string name="face_liveness_hmd_too_far">Face too far away</string>
+    <string name="face_liveness_hmd_spoof">Spoof detected</string>
+
+    <string name="face_liveness_failed">Please try again</string>
+
+    <string name="face_quality_more_than_one_face">Multiple faces found in the image.</string>
+    <string name="face_quality_eyes_not_found">Could not find the eyes in the image.</string>
+    <string name="face_quality_gray_scale">Low contrast. Please improve lighting.</string>
+    <string name="face_quality_frontal_pose">Please look directly at the camera.</string>
+    <string name="face_quality_eyes_closed">Please open your eyes</string>
+    <string name="face_quality_global_score">Low quality image</string>
+    <string name="face_quality_non_uniform_lighting">Improve lighting conditions</string>
+    <string name="face_liveness_hmd_insufficient_face_data">Insufficient face data</string>
+    <string name="face_liveness_hmd_insufficient_frame_data">Insufficient frame data</string>
+    <string name="face_liveness_hmd_frame_mismatch">Frame mismatch</string>
+    <string name="face_liveness_hmd_no_movement_detected">No movement detected</string>
+    <string name="face_liveness_performance">Low performance. It may not be possible to determine liveness.</string>
+    <string name="face_liveness_hmd_quality">Low quality image</string>
+
+
+    <string name="face_quality_pose">Face towards the camera</string>
+    <string name="face_quality_too_small">Move closer to the camera</string>
+    <string name="face_quality_too_large">Too close to the camera</string>
+    <string name="face_quality_sharpness">Image blurred</string>
+    <string name="face_quality_device_upright">Please hold your phone in an upright position</string>
+    <string name="face_quality_mask_detected">Face mask detected</string>
+    <string name="face_mask_detected">Please make sure you are not wearing a face mask</string>
+    <string name="move_closer">Move closer</string>
+    <string name="move_away">Move away</string>
+    <string name="face_quality_exposure">Image too dark</string>
+
+    <string name="authenticate_button">Verify</string>
+    <string name="voice_file_is_empty">The microphone may be in use by another app</string>
+
+</resources>

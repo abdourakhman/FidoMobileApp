@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-mergeDebugResources-94:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\45c6e4a6cb8e4cfcf93c95a03cd3e7ce\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

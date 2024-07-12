@@ -1,0 +1,641 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  Copyright 2013 The Android Open Source Project
+4
+5  Licensed under the Apache License, Version 2.0 (the "License");
+6  you may not use this file except in compliance with the License.
+7  You may obtain a copy of the License at
+8
+9      http://www.apache.org/licenses/LICENSE-2.0
+10
+11  Unless required by applicable law or agreed to in writing, software
+12  distributed under the License is distributed on an "AS IS" BASIS,
+13  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  See the License for the specific language governing permissions and
+15  limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.daon.fido.sdk.sample"
+19    android:versionCode="8"
+20    android:versionName="4.7" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="34" />
+24-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:20:5-67
+26-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:20:22-64
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:21:5-79
+27-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:21:22-76
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:22:5-76
+28-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:22:22-73
+29    <uses-permission android:name="org.fidoalliance.uaf.permissions.FIDO_CLIENT" />
+29-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:23:5-84
+29-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:23:22-81
+30    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+30-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:24:5-75
+30-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:24:22-72
+31    <uses-permission android:name="android.permission.CAMERA" />
+31-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:25:5-65
+31-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:25:22-62
+32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+32-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:26:5-71
+32-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:26:22-68
+33    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+33-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:27:5-79
+33-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:27:22-76
+34    <uses-permission android:name="android.permission.VIBRATE" />
+34-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:28:5-66
+34-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:28:22-63
+35    <uses-permission android:name="android.permission.GET_TASKS" />
+35-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:29:5-68
+35-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:29:22-65
+36    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+36-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:30:5-77
+36-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:30:22-74
+37    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+37-->[androidx.biometric:biometric:1.1.0] C:\Users\hp\.gradle\caches\transforms-3\a4a6e408b85a889aec9dcd4a73761cf9\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+37-->[androidx.biometric:biometric:1.1.0] C:\Users\hp\.gradle\caches\transforms-3\a4a6e408b85a889aec9dcd4a73761cf9\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+38    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+38-->[androidx.biometric:biometric:1.1.0] C:\Users\hp\.gradle\caches\transforms-3\a4a6e408b85a889aec9dcd4a73761cf9\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+38-->[androidx.biometric:biometric:1.1.0] C:\Users\hp\.gradle\caches\transforms-3\a4a6e408b85a889aec9dcd4a73761cf9\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+39    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+39-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:24:5-68
+39-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:24:22-65
+40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+40-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:5-82
+40-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:22-79
+41
+42    <permission
+42-->[androidx.core:core:1.9.0] C:\Users\hp\.gradle\caches\transforms-3\cfaaada2992439a0d26781b283f156a2\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+43        android:name="com.daon.fido.sdk.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.9.0] C:\Users\hp\.gradle\caches\transforms-3\cfaaada2992439a0d26781b283f156a2\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.9.0] C:\Users\hp\.gradle\caches\transforms-3\cfaaada2992439a0d26781b283f156a2\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.daon.fido.sdk.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.9.0] C:\Users\hp\.gradle\caches\transforms-3\cfaaada2992439a0d26781b283f156a2\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.9.0] C:\Users\hp\.gradle\caches\transforms-3\cfaaada2992439a0d26781b283f156a2\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+47
+48    <uses-feature android:name="android.hardware.camera" />
+48-->[com.daon.sdk.face:com.daon.sdk.face:5.2.17] C:\Users\hp\.gradle\caches\transforms-3\43a0d76108e2a9e6b15a174156672330\transformed\com.daon.sdk.face-5.2.17\AndroidManifest.xml:9:5-60
+48-->[com.daon.sdk.face:com.daon.sdk.face:5.2.17] C:\Users\hp\.gradle\caches\transforms-3\43a0d76108e2a9e6b15a174156672330\transformed\com.daon.sdk.face-5.2.17\AndroidManifest.xml:9:19-57
+49    <uses-feature
+49-->[com.daon.sdk.face:com.daon.sdk.face:5.2.17] C:\Users\hp\.gradle\caches\transforms-3\43a0d76108e2a9e6b15a174156672330\transformed\com.daon.sdk.face-5.2.17\AndroidManifest.xml:10:5-12:36
+50        android:name="android.hardware.camera.front"
+50-->[com.daon.sdk.face:com.daon.sdk.face:5.2.17] C:\Users\hp\.gradle\caches\transforms-3\43a0d76108e2a9e6b15a174156672330\transformed\com.daon.sdk.face-5.2.17\AndroidManifest.xml:11:9-53
+51        android:required="false" />
+51-->[com.daon.sdk.face:com.daon.sdk.face:5.2.17] C:\Users\hp\.gradle\caches\transforms-3\43a0d76108e2a9e6b15a174156672330\transformed\com.daon.sdk.face-5.2.17\AndroidManifest.xml:12:9-33
+52    <uses-feature
+52-->[com.daon.sdk.face:com.daon.sdk.face:5.2.17] C:\Users\hp\.gradle\caches\transforms-3\43a0d76108e2a9e6b15a174156672330\transformed\com.daon.sdk.face-5.2.17\AndroidManifest.xml:13:5-15:36
+53        android:name="android.hardware.camera.autofocus"
+53-->[com.daon.sdk.face:com.daon.sdk.face:5.2.17] C:\Users\hp\.gradle\caches\transforms-3\43a0d76108e2a9e6b15a174156672330\transformed\com.daon.sdk.face-5.2.17\AndroidManifest.xml:14:9-57
+54        android:required="false" />
+54-->[com.daon.sdk.face:com.daon.sdk.face:5.2.17] C:\Users\hp\.gradle\caches\transforms-3\43a0d76108e2a9e6b15a174156672330\transformed\com.daon.sdk.face-5.2.17\AndroidManifest.xml:15:9-33
+55
+56    <application
+56-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:32:5-131:19
+57        android:name="com.daon.fido.sdk.sample.CoreApplication"
+57-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:33:9-40
+58        android:allowBackup="true"
+58-->[com.daon.sdk.voice:daon-voice-release:] C:\Users\hp\.gradle\caches\transforms-3\a698c068fa5a6f155df56720efe5116c\transformed\daon-voice-release\AndroidManifest.xml:10:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.9.0] C:\Users\hp\.gradle\caches\transforms-3\cfaaada2992439a0d26781b283f156a2\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+60        android:debuggable="true"
+61        android:icon="@drawable/sample_app_logo_72"
+61-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:34:9-52
+62        android:label="@string/app_name"
+62-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:35:9-41
+63        android:largeHeap="true"
+63-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:36:9-33
+64        android:supportsRtl="true"
+64-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:12:9-35
+65        android:testOnly="true"
+66        android:theme="@style/Theme.Sample"
+66-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:37:9-44
+67        android:usesCleartextTraffic="true" >
+67-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:38:9-44
+68        <activity
+68-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:39:9-42:52
+69            android:name="com.daon.fido.sdk.sample.CreateAccountActivity"
+69-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:40:13-74
+70            android:label="@string/app_name"
+70-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:41:13-45
+71            android:screenOrientation="portrait" />
+71-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:42:13-49
+72        <activity
+72-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:43:9-46:52
+73            android:name="com.daon.fido.sdk.sample.LoginActivity"
+73-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:44:13-66
+74            android:label="@string/app_name"
+74-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:45:13-45
+75            android:screenOrientation="portrait" />
+75-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:46:13-49
+76        <activity
+76-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:47:9-50:52
+77            android:name="com.daon.fido.sdk.sample.HomeActivity"
+77-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:48:13-65
+78            android:label="@string/app_name"
+78-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:49:13-45
+79            android:screenOrientation="portrait" />
+79-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:50:13-49
+80        <activity
+80-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:51:9-54:52
+81            android:name="com.daon.fido.sdk.sample.AuthenticatorsActivity"
+81-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:52:13-75
+82            android:label="@string/app_name"
+82-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:53:13-45
+83            android:screenOrientation="portrait" />
+83-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:54:13-49
+84        <activity
+84-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:55:9-58:52
+85            android:name="com.daon.fido.sdk.sample.IntroActivity"
+85-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:56:13-66
+86            android:label="@string/app_name"
+86-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:57:13-45
+87            android:screenOrientation="portrait" />
+87-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:58:13-49
+88        <activity
+88-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:59:9-70:20
+89            android:name="com.daon.fido.sdk.sample.SplashActivity"
+89-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:60:13-67
+90            android:exported="true"
+90-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:61:13-36
+91            android:label="@string/app_name"
+91-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:62:13-45
+92            android:screenOrientation="portrait"
+92-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:63:13-49
+93            android:theme="@style/Theme.AppCompat.NoActionBar" >
+93-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:64:13-63
+94            <intent-filter>
+94-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:65:13-69:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:66:17-69
+95-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:66:25-66
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:68:17-77
+97-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:68:27-74
+98            </intent-filter>
+99        </activity>
+100        <activity
+100-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:71:9-85:20
+101            android:name="com.daon.fido.sdk.sample.SettingsActivity"
+101-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:72:13-69
+102            android:exported="false"
+102-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:73:13-37
+103            android:label="@string/title_activity_settings" >
+103-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:74:13-60
+104            <intent-filter>
+104-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:75:13-84:29
+105                <action android:name="android.intent.action.SEND" />
+105-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:76:17-69
+105-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:76:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:77:17-76
+107-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:77:27-73
+108
+109                <data android:mimeType="text/plain" />
+109-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:17-55
+109-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:23-52
+110                <data android:mimeType="application/x-pem-file" />
+110-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:17-55
+110-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:23-52
+111                <data android:mimeType="application/pkix-cert" />
+111-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:17-55
+111-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:23-52
+112                <data android:mimeType="application/x-x509-ca-cert" />
+112-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:17-55
+112-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:23-52
+113                <data android:mimeType="application/x-x509-user-cert" />
+113-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:17-55
+113-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:79:23-52
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:86:9-89:48
+117            android:name="com.daon.fido.sdk.sample.TransactionActivity"
+117-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:87:13-72
+118            android:configChanges="orientation|screenSize"
+118-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:88:13-59
+119            android:label="@string/app_name" />
+119-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:89:13-45
+120        <activity
+120-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:90:9-92:51
+121            android:name="com.daon.fido.sdk.sample.ListAuthenticatorsActivity"
+121-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:91:13-79
+122            android:theme="@style/RpApp.Dialog" />
+122-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:92:13-48
+123        <activity
+123-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:93:9-97:59
+124            android:name="com.daon.fido.sdk.sample.DisplayTransactionActivity"
+124-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:94:13-79
+125            android:label="@string/app_name"
+125-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:95:13-45
+126            android:screenOrientation="portrait"
+126-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:96:13-49
+127            android:theme="@style/SDKTheme.NoActionBar" />
+127-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:97:13-56
+128        <activity
+128-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:98:9-102:59
+129            android:name="com.daon.fido.sdk.sample.JavascriptApiDisplayTransactionActivity"
+129-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:99:13-92
+130            android:label="@string/app_name"
+130-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:100:13-45
+131            android:screenOrientation="portrait"
+131-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:101:13-49
+132            android:theme="@style/SDKTheme.NoActionBar" />
+132-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:102:13-56
+133        <activity
+133-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:103:9-106:59
+134            android:name="com.daon.fido.sdk.sample.CustomCaptureActivity"
+134-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:104:13-74
+135            android:screenOrientation="portrait"
+135-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:105:13-49
+136            android:theme="@style/SDKTheme.NoActionBar" />
+136-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:106:13-56
+137
+138        <!-- Firebase Notifications -->
+139        <service
+139-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:109:9-115:19
+140            android:name="com.daon.fido.sdk.sample.push.FidoFirebaseMessagingService"
+140-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:110:13-86
+141            android:exported="true" >
+141-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:111:13-36
+142            <intent-filter>
+142-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:112:13-114:29
+143                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+143-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:113:17-78
+143-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:113:25-75
+144            </intent-filter>
+145        </service>
+146        <!-- ./Firebase Notifications -->
+147        <activity android:name="com.daon.fido.sdk.sample.PushActivity" />
+147-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:117:9-74
+147-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:117:19-71
+148        <activity
+148-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:118:9-122:59
+149            android:name="com.daon.fido.sdk.sample.barcode.BarcodeCaptureActivity"
+149-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:119:13-83
+150            android:label="@string/app_name"
+150-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:120:13-45
+151            android:screenOrientation="portrait"
+151-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:121:13-49
+152            android:theme="@style/SDKTheme.NoActionBar" />
+152-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:122:13-56
+153        <activity
+153-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:123:9-126:52
+154            android:name="com.daon.fido.sdk.sample.JavascriptApiDemoActivity"
+154-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:124:13-78
+155            android:label="@string/app_name"
+155-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:125:13-45
+156            android:screenOrientation="portrait" />
+156-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:126:13-49
+157        <activity
+157-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:127:9-130:61
+158            android:name="com.daon.fido.sdk.sample.QRCodeActivity"
+158-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:128:13-67
+159            android:label="@string/app_name"
+159-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:129:13-45
+160            android:screenOrientation="portrait" />
+160-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:130:13-49
+161
+162        <service
+162-->[androidx.camera:camera-camera2:1.3.3] C:\Users\hp\.gradle\caches\transforms-3\b9275ebe37413496c8c29f88b17cfeb8\transformed\camera-camera2-1.3.3\AndroidManifest.xml:24:9-33:19
+163            android:name="androidx.camera.core.impl.MetadataHolderService"
+163-->[androidx.camera:camera-camera2:1.3.3] C:\Users\hp\.gradle\caches\transforms-3\b9275ebe37413496c8c29f88b17cfeb8\transformed\camera-camera2-1.3.3\AndroidManifest.xml:25:13-75
+164            android:enabled="false"
+164-->[androidx.camera:camera-camera2:1.3.3] C:\Users\hp\.gradle\caches\transforms-3\b9275ebe37413496c8c29f88b17cfeb8\transformed\camera-camera2-1.3.3\AndroidManifest.xml:26:13-36
+165            android:exported="false" >
+165-->[androidx.camera:camera-camera2:1.3.3] C:\Users\hp\.gradle\caches\transforms-3\b9275ebe37413496c8c29f88b17cfeb8\transformed\camera-camera2-1.3.3\AndroidManifest.xml:27:13-37
+166            <meta-data
+166-->[androidx.camera:camera-camera2:1.3.3] C:\Users\hp\.gradle\caches\transforms-3\b9275ebe37413496c8c29f88b17cfeb8\transformed\camera-camera2-1.3.3\AndroidManifest.xml:30:13-32:89
+167                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+167-->[androidx.camera:camera-camera2:1.3.3] C:\Users\hp\.gradle\caches\transforms-3\b9275ebe37413496c8c29f88b17cfeb8\transformed\camera-camera2-1.3.3\AndroidManifest.xml:31:17-103
+168                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+168-->[androidx.camera:camera-camera2:1.3.3] C:\Users\hp\.gradle\caches\transforms-3\b9275ebe37413496c8c29f88b17cfeb8\transformed\camera-camera2-1.3.3\AndroidManifest.xml:32:17-86
+169        </service>
+170
+171        <receiver
+171-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:29:9-40:20
+172            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+172-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:30:13-78
+173            android:exported="true"
+173-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:31:13-36
+174            android:permission="com.google.android.c2dm.permission.SEND" >
+174-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:32:13-73
+175            <intent-filter>
+175-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:33:13-35:29
+176                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+176-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:17-81
+176-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:25-78
+177            </intent-filter>
+178
+179            <meta-data
+179-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:37:13-39:40
+180                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+180-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:38:17-92
+181                android:value="true" />
+181-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:39:17-37
+182        </receiver>
+183        <!--
+184             FirebaseMessagingService performs security checks at runtime,
+185             but set to not exported to explicitly avoid allowing another app to call it.
+186        -->
+187        <service
+187-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:46:9-53:19
+188            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+188-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:47:13-82
+189            android:directBootAware="true"
+189-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:48:13-43
+190            android:exported="false" >
+190-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:49:13-37
+191            <intent-filter android:priority="-500" >
+191-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:112:13-114:29
+192                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+192-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:113:17-78
+192-->C:\dev\FIDO\SampleRpApp\src\main\AndroidManifest.xml:113:25-75
+193            </intent-filter>
+194        </service>
+195        <service
+195-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:54:9-63:19
+196            android:name="com.google.firebase.components.ComponentDiscoveryService"
+196-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:55:13-84
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+198            android:exported="false" >
+198-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:56:13-37
+199            <meta-data
+199-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:57:13-59:85
+200                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+200-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:58:17-122
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:59:17-82
+202            <meta-data
+202-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:60:13-62:85
+203                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+203-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:61:17-119
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\hp\.gradle\caches\transforms-3\cb8850bc577926402b98136307f5c482\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:62:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\hp\.gradle\caches\transforms-3\3e79325dcab74f6bda0305976f282273\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+206                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+206-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\hp\.gradle\caches\transforms-3\3e79325dcab74f6bda0305976f282273\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\hp\.gradle\caches\transforms-3\3e79325dcab74f6bda0305976f282273\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\hp\.gradle\caches\transforms-3\3e79325dcab74f6bda0305976f282273\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+209                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+209-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\hp\.gradle\caches\transforms-3\3e79325dcab74f6bda0305976f282273\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\hp\.gradle\caches\transforms-3\3e79325dcab74f6bda0305976f282273\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\4ba6fb68542c2a7449c9654a0ebffe71\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+212                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+212-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\4ba6fb68542c2a7449c9654a0ebffe71\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\4ba6fb68542c2a7449c9654a0ebffe71\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+215                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+215-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\hp\.gradle\caches\transforms-3\975d3006ce0118a292b19d6ca4cad5d4\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+218                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+218-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\hp\.gradle\caches\transforms-3\975d3006ce0118a292b19d6ca4cad5d4\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\hp\.gradle\caches\transforms-3\975d3006ce0118a292b19d6ca4cad5d4\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+220        </service>
+221
+222        <provider
+222-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\0a06f04554463e192362cb56cc36036e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+223            android:name="androidx.startup.InitializationProvider"
+223-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\0a06f04554463e192362cb56cc36036e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+224            android:authorities="com.daon.fido.sdk.sample.androidx-startup"
+224-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\0a06f04554463e192362cb56cc36036e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+225            android:exported="false" >
+225-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\0a06f04554463e192362cb56cc36036e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+226            <meta-data
+226-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\0a06f04554463e192362cb56cc36036e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+227                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+227-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\0a06f04554463e192362cb56cc36036e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+228                android:value="androidx.startup" />
+228-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\0a06f04554463e192362cb56cc36036e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+229            <meta-data
+229-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\hp\.gradle\caches\transforms-3\96c2465a6b4e97f5d183e87817444755\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+230                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+230-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\hp\.gradle\caches\transforms-3\96c2465a6b4e97f5d183e87817444755\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+231                android:value="androidx.startup" />
+231-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\hp\.gradle\caches\transforms-3\96c2465a6b4e97f5d183e87817444755\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+232            <meta-data
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+233                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+233-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+234                android:value="androidx.startup" />
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+235        </provider>
+236
+237        <activity
+237-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp\.gradle\caches\transforms-3\addfe59f74fb2445ffd2850224903928\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+238            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+238-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp\.gradle\caches\transforms-3\addfe59f74fb2445ffd2850224903928\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+239            android:exported="false"
+239-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp\.gradle\caches\transforms-3\addfe59f74fb2445ffd2850224903928\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+240            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+240-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp\.gradle\caches\transforms-3\addfe59f74fb2445ffd2850224903928\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+241
+242        <provider
+242-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+243            android:name="com.google.firebase.provider.FirebaseInitProvider"
+243-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+244            android:authorities="com.daon.fido.sdk.sample.firebaseinitprovider"
+244-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+245            android:directBootAware="true"
+245-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+246            android:exported="false"
+246-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+247            android:initOrder="100" />
+247-->[com.google.firebase:firebase-common:20.4.2] C:\Users\hp\.gradle\caches\transforms-3\9fc78cbe5aee477de7204de82d08fe1b\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+248
+249        <uses-library
+249-->[androidx.window:window:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\87433fdc0c13d254a8c328cc05c7d624\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+250            android:name="androidx.window.extensions"
+250-->[androidx.window:window:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\87433fdc0c13d254a8c328cc05c7d624\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+251            android:required="false" />
+251-->[androidx.window:window:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\87433fdc0c13d254a8c328cc05c7d624\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+252        <uses-library
+252-->[androidx.window:window:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\87433fdc0c13d254a8c328cc05c7d624\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+253            android:name="androidx.window.sidecar"
+253-->[androidx.window:window:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\87433fdc0c13d254a8c328cc05c7d624\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+254            android:required="false" />
+254-->[androidx.window:window:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\87433fdc0c13d254a8c328cc05c7d624\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+255
+256        <meta-data
+256-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\hp\.gradle\caches\transforms-3\746701a57d53f9f695a725c6358d289f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+257            android:name="com.google.android.gms.version"
+257-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\hp\.gradle\caches\transforms-3\746701a57d53f9f695a725c6358d289f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+258            android:value="@integer/google_play_services_version" />
+258-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\hp\.gradle\caches\transforms-3\746701a57d53f9f695a725c6358d289f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+259
+260        <service
+260-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\f5686aae7425480a9b30b421d2ad2b0d\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+261            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+261-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\f5686aae7425480a9b30b421d2ad2b0d\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+262            android:exported="false" >
+262-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\f5686aae7425480a9b30b421d2ad2b0d\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+263            <meta-data
+263-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\f5686aae7425480a9b30b421d2ad2b0d\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+264                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+264-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\f5686aae7425480a9b30b421d2ad2b0d\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+265                android:value="cct" />
+265-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\f5686aae7425480a9b30b421d2ad2b0d\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+266        </service>
+267        <service
+267-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\87784d09da939f8330c11bd0e1b472b0\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+268            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+268-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\87784d09da939f8330c11bd0e1b472b0\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+269            android:exported="false"
+269-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\87784d09da939f8330c11bd0e1b472b0\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" >
+270-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\87784d09da939f8330c11bd0e1b472b0\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+271        </service>
+272
+273        <receiver
+273-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\87784d09da939f8330c11bd0e1b472b0\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+274            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+274-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\87784d09da939f8330c11bd0e1b472b0\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+275            android:exported="false" />
+275-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\hp\.gradle\caches\transforms-3\87784d09da939f8330c11bd0e1b472b0\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+276        <receiver
+276-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+277            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+278            android:directBootAware="false"
+278-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+279            android:enabled="true"
+279-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+280            android:exported="true"
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+281            android:permission="android.permission.DUMP" >
+281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+282            <intent-filter>
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+283                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+284            </intent-filter>
+285            <intent-filter>
+285-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+286                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+287            </intent-filter>
+288            <intent-filter>
+288-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+289                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+290            </intent-filter>
+291            <intent-filter>
+291-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+292                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hp\.gradle\caches\transforms-3\607bd3cd565e2e1dddf9ba4df68fa283\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+293            </intent-filter>
+294        </receiver>
+295
+296        <activity
+296-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:13:9-15:50
+297            android:name="com.daon.fido.client.sdk.init.InitialiseSdkActivity"
+297-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:14:13-79
+298            android:theme="@style/Transparent" />
+298-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:15:13-47
+299        <activity
+299-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:16:9-18:50
+300            android:name="com.daon.fido.client.sdk.reg.UafClientRegisterActivity"
+300-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:17:13-82
+301            android:theme="@style/Transparent" />
+301-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:18:13-47
+302        <activity
+302-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:19:9-21:50
+303            android:name="com.daon.fido.client.sdk.reg.UafAsmRegisterActivity"
+303-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:20:13-79
+304            android:theme="@style/Transparent" />
+304-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:21:13-47
+305        <activity
+305-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:22:9-24:50
+306            android:name="com.daon.fido.client.sdk.dereg.UafClientDeregisterActivity"
+306-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:23:13-86
+307            android:theme="@style/Transparent" />
+307-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:24:13-47
+308        <activity
+308-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:25:9-27:50
+309            android:name="com.daon.fido.client.sdk.dereg.UafAsmDeregisterActivity"
+309-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:26:13-83
+310            android:theme="@style/Transparent" />
+310-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:27:13-47
+311        <activity
+311-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:28:9-30:50
+312            android:name="com.daon.fido.client.sdk.auth.UafClientAuthenticateActivity"
+312-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:29:13-87
+313            android:theme="@style/Transparent" />
+313-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:30:13-47
+314        <activity
+314-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:31:9-33:50
+315            android:name="com.daon.fido.client.sdk.auth.UafAsmAuthenticateActivity"
+315-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:32:13-84
+316            android:theme="@style/Transparent" />
+316-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:33:13-47
+317        <activity
+317-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:34:9-36:50
+318            android:name="com.daon.fido.client.sdk.auth.UafAsmGetRegistrationsActivity"
+318-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:35:13-88
+319            android:theme="@style/Transparent" />
+319-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:36:13-47
+320        <activity
+320-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:37:9-39:53
+321            android:name="com.daon.fido.client.sdk.ui.ChooseAuthenticatorActivity"
+321-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:38:13-83
+322            android:theme="@style/FidoSdk.Dialog" />
+322-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:39:13-50
+323        <activity
+323-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:40:9-42:53
+324            android:name="com.daon.fido.client.sdk.ui.ChooseAccountActivity"
+324-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:41:13-77
+325            android:theme="@style/FidoSdk.Dialog" />
+325-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:42:13-50
+326        <activity
+326-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:43:9-45:53
+327            android:name="com.daon.fido.client.sdk.ui.DisplayTransactionActivity"
+327-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:44:13-82
+328            android:theme="@style/FidoSdk.Dialog" />
+328-->[com.daon.sdk.fido.client:com.daon.sdk.fido.client:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\4a18d7c96c0f6eb1af1636c9c0104a2e\transformed\com.daon.sdk.fido.client-4.7.40\AndroidManifest.xml:45:13-50
+329        <activity
+329-->[com.daon.sdk.authenticator:com.daon.sdk.authcommon:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\5c179c3c0346ab71f090beb7426307be\transformed\com.daon.sdk.authcommon-4.7.40\AndroidManifest.xml:10:9-13:59
+330            android:name="com.daon.sdk.authenticator.capture.CaptureActivity"
+330-->[com.daon.sdk.authenticator:com.daon.sdk.authcommon:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\5c179c3c0346ab71f090beb7426307be\transformed\com.daon.sdk.authcommon-4.7.40\AndroidManifest.xml:11:13-78
+331            android:screenOrientation="portrait"
+331-->[com.daon.sdk.authenticator:com.daon.sdk.authcommon:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\5c179c3c0346ab71f090beb7426307be\transformed\com.daon.sdk.authcommon-4.7.40\AndroidManifest.xml:12:13-49
+332            android:theme="@style/SDKTheme.NoActionBar" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+332-->[com.daon.sdk.authenticator:com.daon.sdk.authcommon:4.7.40] C:\Users\hp\.gradle\caches\transforms-3\5c179c3c0346ab71f090beb7426307be\transformed\com.daon.sdk.authcommon-4.7.40\AndroidManifest.xml:13:13-56
+333        <activity
+333-->[com.google.android.play:core-common:2.0.3] C:\Users\hp\.gradle\caches\transforms-3\87c31b9fbdb32d36c3735fbed5151b1b\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+334            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+334-->[com.google.android.play:core-common:2.0.3] C:\Users\hp\.gradle\caches\transforms-3\87c31b9fbdb32d36c3735fbed5151b1b\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
+335            android:exported="false"
+335-->[com.google.android.play:core-common:2.0.3] C:\Users\hp\.gradle\caches\transforms-3\87c31b9fbdb32d36c3735fbed5151b1b\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+336            android:stateNotNeeded="true"
+336-->[com.google.android.play:core-common:2.0.3] C:\Users\hp\.gradle\caches\transforms-3\87c31b9fbdb32d36c3735fbed5151b1b\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+337            android:theme="@style/Theme.PlayCore.Transparent" />
+337-->[com.google.android.play:core-common:2.0.3] C:\Users\hp\.gradle\caches\transforms-3\87c31b9fbdb32d36c3735fbed5151b1b\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+338    </application>
+339
+340</manifest>

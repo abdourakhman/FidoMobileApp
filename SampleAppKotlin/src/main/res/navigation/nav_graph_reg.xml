@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/reg_default">
+
+    <fragment
+        android:id="@+id/reg_default"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.BaseRegistrationFragment"
+        android:label="RegistrationDefault" />
+
+    <fragment
+        android:id="@+id/reg_passcode"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.passcode.RegisterPasscodeFragment"
+        android:label="RegisterPasscode" />
+
+    <fragment
+        android:id="@+id/auth_passcode"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.passcode.AuthenticatePasscodeFragment"
+        android:label="AuthenticatePasscode" />
+
+    <fragment
+        android:id="@+id/reg_fingerprint"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.finger.FingerprintFragment"
+        android:label="RegisterFingerprint" >
+        <action
+            android:id="@+id/action_fingerFragment_to_regDefault"
+            app:destination="@id/reg_default"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/reg_default"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reg_silent"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.SilentFragment"
+        android:label="RegisterSilent" />
+
+    <fragment
+        android:id="@+id/reg_face"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.face.RegisterFaceFragment"
+        android:label="RegisterFace" >
+        <action
+            android:id="@+id/action_faceFragment_to_regDefault"
+            app:destination="@id/reg_default"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/reg_default"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/auth_face"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.face.AuthenticateFaceFragment"
+        android:label="AuthenticateFace" />
+</navigation>

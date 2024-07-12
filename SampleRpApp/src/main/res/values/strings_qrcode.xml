@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="qrcode_title">Read QR Code</string>
+    <string name="qrcode_info">Point camera at the QR Code</string>
+    <string name="qrcode_permission_camera_rationale">Access to the camera is needed for detection.</string>
+    <string name="qrcode_no_camera_permission">This application does not have the camera permission.</string>
+    <string name="qrcode_low_storage_error">Dependencies cannot be downloaded due to low device storage.</string>
+
+</resources>

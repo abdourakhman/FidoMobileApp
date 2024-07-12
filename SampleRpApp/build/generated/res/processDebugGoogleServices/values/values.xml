@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">817528213089</string>
+    <string name="google_api_key" translatable="false">AIzaSyBxc5XxrUpQ7aIhZhtfprY50LJ1HciGi14</string>
+    <string name="google_app_id" translatable="false">1:817528213089:android:01b1ca5ede1d584d4da420</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBxc5XxrUpQ7aIhZhtfprY50LJ1HciGi14</string>
+    <string name="google_storage_bucket" translatable="false">daonfidoapps.appspot.com</string>
+    <string name="project_id" translatable="false">daonfidoapps</string>
+</resources>

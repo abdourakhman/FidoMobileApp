@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_auth"
+    app:startDestination="@id/auth_basic">
+
+    <fragment
+        android:id="@+id/auth_basic"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.BaseAuthenticationFragment"
+        android:label="AuthenticateBasic" />
+
+    <fragment
+        android:id="@+id/auth_passcode"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.passcode.AuthenticatePasscodeFragment"
+        android:label="AuthenticatePasscode" />
+
+    <fragment
+        android:id="@+id/auth_fingerprint"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.finger.FingerprintFragment"
+        android:label="AuthenticateFingerprint" >
+        <action
+            android:id="@+id/action_fingerFragment_to_authBasic"
+            app:destination="@id/auth_basic"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/auth_basic"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/auth_silent"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.SilentFragment"
+        android:label="AuthenticateSilent" />
+
+    <fragment
+        android:id="@+id/auth_face"
+        android:name="com.daon.fido.sdk.sample.kt.fragments.face.AuthenticateFaceFragment"
+        android:label="AuthenticateFace" >
+    <action
+        android:id="@+id/action_faceFragment_to_authBasic"
+        app:destination="@id/auth_basic"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/auth_basic"
+        app:popUpToInclusive="false" />
+    </fragment>
+</navigation>

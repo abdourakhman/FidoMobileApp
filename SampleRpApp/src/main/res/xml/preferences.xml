@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_fido_server"
+        android:title="@string/pref_fido_server">
+        <EditTextPreference
+            android:key="pref_server_url"
+            android:title="@string/pref_server_url"
+            android:defaultValue="acme.com"
+            android:persistent="true"
+            android:inputType="textUri"/>
+        <EditTextPreference
+            android:key="pref_server_port"
+            android:title="@string/pref_server_port"
+            android:defaultValue="443"
+            android:persistent="true"
+            android:inputType="number"/>
+        <CheckBoxPreference
+            android:key="pref_server_secure"
+            android:title="@string/pref_server_secure"
+            android:defaultValue="false"
+            android:persistent="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_fido_authlist"
+        android:title="@string/pref_fido_authlist">
+        <CheckBoxPreference
+            android:key="pref_list_available_authenticators"
+            android:title="@string/pref_list_available_authenticators"
+            android:defaultValue="false"
+            android:persistent="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_fido_logon"
+        android:title="@string/pref_fido_logon">
+        <CheckBoxPreference
+            android:key="pref_native_logon_always"
+            android:title="@string/pref_native_logon_always"
+            android:defaultValue="false"
+            android:persistent="true"/>
+        <CheckBoxPreference
+            android:key="pref_ignore_native_clients"
+            android:title="@string/pref_ignore_native_clients"
+            android:defaultValue="false"
+            android:persistent="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_fido_tx"
+        android:title="@string/pref_fido_tx">
+        <CheckBoxPreference
+            android:key="pref_text_tx"
+            android:title="@string/pref_text_tx"
+            android:defaultValue="false"
+            android:persistent="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_fido_ui"
+        android:title="@string/pref_fido_ui">
+        <CheckBoxPreference
+            android:key="pref_screen_capture"
+            android:title="@string/pref_screen_capture"
+            android:defaultValue="false"
+            android:persistent="true"/>
+        <CheckBoxPreference
+            android:key="pref_silent_finger_reg"
+            android:title="@string/pref_silent_finger_reg"
+            android:defaultValue="false"
+            android:persistent="true"/>
+        <CheckBoxPreference
+            android:key="pref_silent_srp_passcode"
+            android:title="@string/pref_silent_srp_passcode"
+            android:defaultValue="false"
+            android:persistent="true"/>
+        <CheckBoxPreference
+            android:key="pref_always_allow_authenticator_choice"
+            android:title="@string/pref_always_allow_authenticator_choice"
+            android:defaultValue="true"
+            android:persistent="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_fido_ados"
+        android:title="@string/pref_fido_ados">
+        <CheckBoxPreference
+            android:key="pref_ados_root_cert_supplied"
+            android:title="ADoS Root Cert Supplied"
+            android:defaultValue="false"
+            android:persistent="true"/>
+        <CheckBoxPreference
+            android:key="pref_alt_ados_root_cert_provided"
+            android:title="@string/pref_alt_ados_root_cert_provided"
+            android:defaultValue="false"
+            android:persistent="true"/>
+        <EditTextPreference
+            android:key="pref_ados_dec_san"
+            android:title="@string/pref_ados_dec_san"
+            android:persistent="true"
+            android:inputType="textUri"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_fido_ootp"
+        android:title="@string/pref_fido_ootp">
+        <CheckBoxPreference
+            android:key="pref_sign_ootp"
+            android:title="@string/pref_sign_ootp"
+            android:defaultValue="false"
+            android:persistent="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_fido_security"
+        android:title="@string/pref_fido_security">
+        <CheckBoxPreference
+            android:key="pref_invalidate_finger_on_new_enrolment"
+            android:title="@string/pref_invalidate_finger_on_new_enrolment"
+            android:defaultValue="true"
+            android:persistent="true" />
+        <CheckBoxPreference
+            android:key="pref_sdk_managed_finger_locking"
+            android:title="@string/pref_sdk_managed_finger_locking"
+            android:defaultValue="true"
+            android:persistent="true" />
+        <CheckBoxPreference
+            android:key="pref_init_params_to_server"
+            android:title="@string/pref_init_params_to_server"
+            android:defaultValue="false"
+            android:persistent="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_fido_app_info"
+        android:title="@string/pref_fido_app_info">
+        <Preference android:title="@string/pref_facet_id"
+            android:key="facet_id_preference">
+        </Preference>
+        <Preference android:title="@string/pref_app_version"
+            android:key="app_version_preference">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_fido_reset_category"
+        android:title="@string/pref_fido_reset_category">
+        <Preference android:title="@string/pref_reset"
+            android:key="pref_reset"
+            android:summary="@string/click">
+        </Preference>
+        <Preference android:title="@string/pref_hard_reset"
+            android:key="pref_hard_reset"
+            android:summary="@string/hard_click">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

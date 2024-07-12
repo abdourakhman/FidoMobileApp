@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.daon.fido.sdk.sample.kt.IntroFragment"
+        android:label="Start" />
+
+    <fragment
+        android:id="@+id/nav_reg"
+        android:name="com.daon.fido.sdk.sample.kt.RegisterFaceFragment"
+        android:label="Register">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_auth"
+        android:name="com.daon.fido.sdk.sample.kt.AuthenticateFaceFragment"
+        android:label="Authenticate">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_logged_in"
+        android:name="com.daon.fido.sdk.sample.kt.LoggedInFragment"
+        android:label="LoggedIn">
+    </fragment>
+
+
+</navigation>

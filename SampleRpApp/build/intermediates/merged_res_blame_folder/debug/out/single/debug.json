@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_push.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_push.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_intro.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_register_pattern.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_register_pattern.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_item_authenticator.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/item_authenticator.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_already_registered.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/already_registered.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable_listitem_background.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable/listitem_background.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable_text_color.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable/text_color.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_account_list_item.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/account_list_item.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_create_account.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_create_account.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_barcode_capture.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_barcode_capture.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_img_bad_2.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/img_bad_2.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_ic_fido_not.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/ic_fido_not.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable_circle.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable/circle.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable_frame_overlay_green.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable/frame_overlay_green.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_tile.9.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/tile.9.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_splash.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_face.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_face.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_img_bad_1.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/img_bad_1.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_authenticate_passcode.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_authenticate_passcode.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable_frame_overlay_red.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable/frame_overlay_red.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_choose_account.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/choose_account.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_authenticate_voice.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_authenticate_voice.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-mdpi_background_preview.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-mdpi/background_preview.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_ootp_qr_scan.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_ootp_qr_scan.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-mdpi_gradient.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-mdpi/gradient.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_light_good_green.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/light_good_green.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable_instructions_3dfl.gif.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable/instructions_3dfl.gif"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_finger_auth.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/finger_auth.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_choose_authenticator.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/choose_authenticator.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_fido_logo.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/fido_logo.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_sample_app_logo_512.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/sample_app_logo_512.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_verify_and_reenrol_passcode.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_verify_and_reenrol_passcode.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_authenticator_list_item.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/authenticator_list_item.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_light_bad.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/light_bad.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_img_bad_4.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/img_bad_4.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_list_authenticators.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_list_authenticators.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_mask.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/mask.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_light_good.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/light_good.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_register_voice.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_register_voice.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_transaction.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_transaction.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_authenticators.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_authenticators.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable_frame_overlay_grey.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable/frame_overlay_grey.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_home.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_silent.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_silent.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_identityx_logo.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/identityx_logo.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_login.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_authenticate_pattern.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_authenticate_pattern.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/menu_main.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/menu/main.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_qrcode.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_qrcode.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_daon_register_passcode.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/daon_register_passcode.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_javascript.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_javascript.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/xml_preferences.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/xml/preferences.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_activity_register_more_than_once_tab.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/activity_register_more_than_once_tab.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/layout_item_authenticator_info.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/layout/item_authenticator_info.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_img_bad_3.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/img_bad_3.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable_standard_button.xml.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable/standard_button.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.SampleRpApp-merged_res-68:/drawable-hdpi_sample_app_logo_72.png.flat",
+        "source": "com.daon.fido.sdk.sample.SampleRpApp-main-70:/drawable-hdpi/sample_app_logo_72.png"
+    }
+]

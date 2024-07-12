@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar android:id="@+id/authenticators_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp" android:visibility="gone" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/standard_button"
+        style="@style/ButtonFont"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        />
+    <ListView
+        android:id="@+id/registerList"
+        android:layout_below="@+id/register"
+        android:visibility="gone"
+        android:background="#90FFFFFF"
+        android:dividerHeight="0.1dp"
+        android:divider="#0000CC"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/standard_button"
+        style="@style/ButtonFont"
+        android:padding="10dp"
+        android:layout_below="@+id/registerList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Verify"
+        />
+    <ListView
+        android:id="@+id/verifyList"
+        android:layout_below="@+id/verify"
+        android:visibility="gone"
+        android:background="#90FFFFFF"
+        android:dividerHeight="0.1dp"
+        android:divider="#0000CC"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_auth",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph_reg",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

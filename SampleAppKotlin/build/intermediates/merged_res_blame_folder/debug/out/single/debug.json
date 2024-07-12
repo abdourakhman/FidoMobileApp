@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_image_quality_indicator.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/image_quality_indicator.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_standard_button.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/standard_button.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/navigation_nav_graph_auth.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/navigation/nav_graph_auth.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_listitem_background.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/listitem_background.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/navigation_nav_graph_reg.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/navigation/nav_graph_reg.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_bg_fingerprint.png.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/bg_fingerprint.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_preview_overlay.png.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/preview_overlay.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_verified.png.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/verified.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/navigation_nav_graph.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_background_preview.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/background_preview.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_identityx_logo.png.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/identityx_logo.png"
+    },
+    {
+        "merged": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-merged_res-96:/drawable_fido_logo.png.flat",
+        "source": "com.daon.fido.sdk.sample.kt.SampleAppKotlin-main-98:/drawable/fido_logo.png"
+    }
+]
